@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-quartaria: #A27B5C;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0 -2px;
+    padding: 0 5px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    border-radius: 8px;
+}
+  
+.cabecalho__menu__link:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-hover);
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.nome__autor {
+    color: var(--cor-terciaria);
+}
+
+.tenho {
+    font-size: 1,5rem;
+    color: var(--cor-quartaria);
+}
+.aos {
+    font-size: 1.3rem;
+    color: var(--cor-quartaria);
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    color: var(--cor-secundaria);
+}
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.2rem;
+    font-family: var(--cor-terciaria);
+}
+
+.autor {
+    color: var(--cor-quartaria);
+}
+
+.funcao {
+    color: var(--cor-terciaria);
+}
+.bacharelado {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.civil {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.subtitulo__biografia{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.desde__cedo {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.ao__ingressar {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.acredito {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.em__minha {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.meu__objetivo {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.participar {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.exemplo {
+    font-size: 1.2rem;
+    color: var(--cor-quartaria);
+}
+
+.dedico {
+    font-size: 1.3rem;
+    color: var(--cor-quartaria);
+}
+
+.construindo{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.a__busca{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.pratica__pratica{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.mestre__etapa{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.o__sonho{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.meu__one{
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.eng {
+    color: var(--cor-primaria);
+}
+
+.cor {
+    color: var(--cor-quartaria);
+}
+
+.cort {
+    color: var(--cor-quartaria);
+}
+
+.sort {
+    color: var(--cor-quartaria);
+}
+.sor {
+    color: var(--cor-quartaria);
+}
+.eu {
+    color: aqua;
+}
+.tu {
+    color: aqua;
+}
+.ele {
+    color: aqua;
+}
+.voce {
+    color: aqua;
+}
+.nos {
+    color: aqua;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-hover);
+}
+.apresentacao__imagem{
+    width: 50%;
+}
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.rod {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.rov {
+    text-align: center;
+    font-weight: 400;
+}
+
+.sof {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho{
+         padding: 0 2px;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+} 
+  /* Responsividade: Ajustando o espaçamento entre os links para telas menores */
+  
+ 
